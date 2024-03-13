@@ -1,4 +1,4 @@
-![image](https://github.com/Akapulka00/AvroraRegistration/assets/91537466/a9926eae-4619-4811-9df9-8a90d4c460b6)## Обзор
+## Обзор
 
 Это простое приложение для отображения формы регистрации.
 
