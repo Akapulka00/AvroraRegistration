@@ -1,30 +1,34 @@
-# Моё приложение для ОС Аврора
+![image](https://github.com/Akapulka00/AvroraRegistration/assets/91537466/a9926eae-4619-4811-9df9-8a90d4c460b6)## Обзор
 
-Короткое описание моего приложения для ОС Аврора
+Это простое приложение для отображения формы регистрации.
 
-The source code of the project is provided under
-[the license](LICENSE.BSD-3-CLAUSE.md),
-that allows it to be used in third-party applications.
+## Требования
 
-## Project Structure
+* Aurora sdk 4.3 или выше
 
-The project has a common structure
-of an application based on C++ and QML for Aurora OS.
+## Установка
 
-* **[ru.auroraos.Teast.pro](ru.auroraos.Teast.pro)** file
-  describes the project structure for the qmake build system.
-* **[icons](icons)** directory contains application icons for different screen resolutions.
-* **[qml](qml)** directory contains the QML source code and the UI resources.
-  * **[cover](qml/cover)** directory contains the application cover implementations.
-  * **[icons](qml/icons)** directory contains the custom UI icons.
-  * **[pages](qml/pages)** directory contains the application pages.
-  * **[Teast.qml](qml/Teast.qml)** file
-    provides the application window implementation.
-* **[rpm](rpm)** directory contains the rpm-package build settings.
-  **[ru.auroraos.Teast.spec](rpm/ru.auroraos.Teast.spec)** file is used by rpmbuild tool.
-  It is generated from **[ru.auroraos.Teast.yaml](rpm/ru.auroraos.Teast.yaml)** file.
-* **[src](src)** directory contains the C++ source code.
-  * **[main.cpp](src/main.cpp)** file is the application entry point.
-* **[translations](translations)** directory contains the UI translation files.
-* **[ru.auroraos.Teast.desktop](ru.auroraos.Teast.desktop)** file
-  defines the display and parameters for launching the application.
+1. Скачайте и установите Aurora sdk.
+2. Откройте проект.
+3. Запустите виртуальные машины.
+4. Нажмите кнопку "Собрать" (Build).
+5. Запустите приложение.
+
+## Использование
+
+Правильно заполните форму и нажимайте кнопку регистрация
+
+## Теги Git
+
+* v1.0.0: Первая стабильная версия.
+* v1.1.0: Добавлена поддержка экспорта данных в файл QML.
+## Визуализация
+
+![image](https://github.com/Akapulka00/AvroraRegistration/assets/91537466/c3786ff3-4a7c-4b0a-b572-df00189ef6f3)
+
+
+
+
+## Лицензия
+
+Этот проект лицензирован под лицензией MIT.
